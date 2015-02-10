@@ -14,13 +14,12 @@ import java.io.IOException;
 
 public class OriginalFractal extends PApplet {
 
-float changeValue;
 public void setup()
 {
 	background(0);
-	size(1000,1000);
+	size(800,800);
 	noFill();
-	fractal(500,500,500);
+	fractal(400,400,400);
 
 }
 public void draw()
